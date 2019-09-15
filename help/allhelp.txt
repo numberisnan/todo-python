@@ -1,0 +1,4 @@
+add                           Add an item to your list
+clear                         Clear all list items
+help                          Help command that shows this message
+list                          List items in todo list
