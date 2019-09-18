@@ -4,7 +4,7 @@ import json
 
 
 def execute(name, args):
-    with open(name + "/help.txt", "r") as helpFile:
+    with open(name + "./help.txt", "r") as helpFile:
         helpString = helpFile.read()
 
     parser = argparse.ArgumentParser(description=helpString, prog=name)

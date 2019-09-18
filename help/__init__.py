@@ -3,7 +3,7 @@ import colorama
 
 
 def execute(name, args):
-    with open("help/allhelp.txt", "r") as helpfile:
+    with open("./help/allhelp.txt", "r") as helpfile:
         commandHelp = helpfile.read()
     print(colorama.Fore.RED + "TODO: A helpful CLI todo list")
     print(colorama.Fore.GREEN + "Commands: ")
