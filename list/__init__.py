@@ -38,11 +38,15 @@ def execute(name, args):
             color = colorama.Fore.GREEN
         elif task.p == 2:
             color = colorama.Fore.RED
-        elif task.p >= 3:
+        elif task.p == 3:
             color = colorama.Fore.YELLOW
+        elif task.p == 4:
+            color = colorama.Fore.MAGENTA
+        elif task.p >= 5:
+            color = colorama.Back.RED + colorama.Fore.WHITE
         print(color + "%s: %s     -     %s" % (task.name, task.description, task.p))
 
-    print("")
+    print(colorama.Fore.RESET + colorama.Back.RESET)
 
 
 if __name__ == "__main__":
