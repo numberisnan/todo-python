@@ -1,4 +1,5 @@
 add                           Add an item to your list
 clear                         Clear all list items
+edit                          Edit an element on the list
 help                          Help command that shows this message
 list                          List items in todo list
